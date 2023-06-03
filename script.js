@@ -39,7 +39,7 @@ coloractive.addEventListener("click", function () {
   console.log("Jasmine");
 });
 let codeactive = document.getElementById("codename");
-codeactive.addEventListener("click", function () {
+codeactive.addEventListener("change", function () {
   let options = document.querySelectorAll("option");
   let value = codeactive.value;
   let text = codeactive.options[codeactive.selectedIndex].text;
